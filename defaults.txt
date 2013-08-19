@@ -1,0 +1,6 @@
+galcolor: green
+tempcolor: black
+origcolor: lime green
+smorigcolor: turquoise
+subcolor: sky blue
+smsubcolor: blue

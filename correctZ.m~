@@ -1,0 +1,9 @@
+clc;
+clear all;
+close all;
+
+c=dlmread('/home/sagi/idl/superfit/sne/Others/sn2005apZ.p36.dat');
+x2=c(:,1);
+y2=c(:,2);
+a=[x2/1.2832 y2];
+dlmwrite('/home/sagi/idl/superfit/sne/Others/sn2005ap.p36.dat',a,'delimiter','\t','newline','pc');
